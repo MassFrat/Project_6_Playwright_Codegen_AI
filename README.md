@@ -1,6 +1,6 @@
 # SauceDemo Checkout Test (Playwright + TypeScript)
 
-A simple end-to-end test for the [SauceDemo](https://www.saucedemo.com/) checkout flow, written with [Playwright](https://playwright.dev/) using the **Page Object Model (POM)** pattern.
+A simple end-to-end test for the [SauceDemo](https://www.saucedemo.com/) checkout flow, written with [Playwright](https://playwright.dev/) using the **Page Object Model (POM)** pattern. 
 
 ## What it does
 
@@ -64,3 +64,5 @@ export default defineConfig({
 ```
 
 Once that was added, every `getByTestId()` call in the page objects worked correctly.
+
+All 3 tests passed with Firefox, Chrome and Webskit Browsers (refer to screenshot).
